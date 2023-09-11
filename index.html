@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>Temprature converter</title>
+        <link rel="stylesheet" href="./insex.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        
+        <center>
+            <p class = "middle">
+                <label>Celsius</label>
+                <input id="inputcelsius" type="number" placeholder="Celsius"
+                oninput="temperatureConverter(this.value)"
+                onchange="temperatureConverter(this.value)">
+            </p>
+            <p>Fahrenheit: <span id="outputfahrenheit"></span></p>    
+        </center>
+    </body>
+    <script src = "index.js"></script>
+</html>
